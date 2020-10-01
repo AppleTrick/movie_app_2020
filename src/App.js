@@ -28,8 +28,12 @@ const FoodLike =[
     id : "4",
     name : "닭갈비",
     image : "https://contents.lotteon.com/itemimage/LD/15/06/46/43/6_/0/LD150646436_0_2.jpg/dims/resizef/824X824"
+  },
+  {
+    id : "5",
+    name : "컵라면",
+    image : "https://m.officepia.co.kr/web/product/big/20191219/4fb737734cc6b55df8916447affd27c3.png"
   }
-
 ]
 
 function App() {
