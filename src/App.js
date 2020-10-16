@@ -27,7 +27,7 @@ class App extends React.Component{
         </div>
       )
       : (
-        <div className="Movies">
+        <div className="movies">
           {
             movies.map( movie => (
               <Movie 
@@ -37,6 +37,7 @@ class App extends React.Component{
                 summary={movie.summary} 
                 title={movie.title} 
                 poster={movie.medium_cover_image}
+                genres={movie.genres}
               />
             ))
           }
